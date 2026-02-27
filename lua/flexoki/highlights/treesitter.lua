@@ -47,10 +47,10 @@ M.groups = function()
     ["@function.builtin"] = { link = "Special" },
     ["@function.macro"] = { link = "Macro" },
 
-    ["@parameter"] = { link = "Identifier" },
+    -- ["@parameter"] = { link = "Identifier" },
     ["@method"] = { link = "Function" },
-    ["@field"] = { link = "Identifier" },
-    ["@property"] = { link = "Identifier" },
+    -- ["@field"] = { link = "Identifier" },
+    ["@property"] = { link = "Constant" },
     ["@constructor"] = { link = "Special" },
 
     ["@conditional"] = { link = "Conditional" },
@@ -60,7 +60,7 @@ M.groups = function()
     ["@keyword"] = { link = "Keyword" },
     ["@exception"] = { link = "Exception" },
 
-    ["@variable"] = { link = "Identifier" },
+    ["@variable"] = { link = "Normal" },
     ["@variable.builtin"] = { link = "Special" },
     ["@variable.member"] = { link = "Constant" },
     ["@variable.parameter"] = { link = "Special" },
@@ -71,7 +71,7 @@ M.groups = function()
     ["@type.definition"] = { link = "Typedef" },
     ["@storageclass"] = { link = "StorageClass" },
     ["@structure"] = { link = "Structure" },
-    ["@namespace"] = { link = "Identifier" },
+    ["@namespace"] = { link = "Normal" },
     ["@include"] = { link = "Include" },
     ["@preproc"] = { link = "PreProc" },
     ["@debug"] = { link = "Debug" },
