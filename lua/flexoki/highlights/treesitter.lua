@@ -60,7 +60,7 @@ M.groups = function()
     ["@keyword"] = { link = "Keyword" },
     ["@exception"] = { link = "Exception" },
 
-    ["@variable"] = { link = "Normal" },
+    ["@variable"] = { fg = c["tx"], bg = "NONE" },
     ["@variable.builtin"] = { link = "Special" },
     ["@variable.member"] = { link = "Constant" },
     ["@variable.parameter"] = { link = "Special" },
@@ -72,7 +72,7 @@ M.groups = function()
     ["@type.argument"] = { link = "Constant" },
     ["@storageclass"] = { link = "StorageClass" },
     ["@structure"] = { link = "Structure" },
-    ["@namespace"] = { link = "Normal" },
+    ["@namespace"] = { link = "Constant" },
     ["@include"] = { link = "Include" },
     ["@preproc"] = { link = "PreProc" },
     ["@debug"] = { link = "Debug" },
