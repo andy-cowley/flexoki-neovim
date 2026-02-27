@@ -14,6 +14,16 @@ M.groups = function()
     ["@text.underline"] = { link = "Underlined" },
     ["@text.todo"] = { link = "Todo" },
 
+    -- Strings
+    ["@string"] = { link = "String" },
+    ["@string.documentation"] = { link = "String" },
+    ["@string.escape"] = { link = "SpecialChar" },
+    ["@string.regexp"] = { link = "Character" },
+    ["@string.special"] = { link = "SpecialChar" },
+    ["@string.special.path"] = { link = "String" },
+    ["@string.special.symbol"] = { link = "Constant" },
+    ["@string.special.url"] = { link = "Constant" },
+
     ["@comment"] = { link = "Comment" },
     ["@comment.documentation"] = { link = "Comment" },
     ["@comment.error"] = { link = "Error" },
@@ -27,9 +37,6 @@ M.groups = function()
     ["@constant.macro"] = { link = "Define" },
     ["@define"] = { link = "Define" },
     ["@macro"] = { link = "Macro" },
-    ["@string"] = { link = "String" },
-    ["@string.escape"] = { link = "SpecialChar" },
-    ["@string.special"] = { link = "SpecialChar" },
     ["@character"] = { link = "Character" },
     ["@character.special"] = { link = "SpecialChar" },
     ["@number"] = { link = "Number" },
@@ -39,6 +46,7 @@ M.groups = function()
     ["@function"] = { link = "Function" },
     ["@function.builtin"] = { link = "Special" },
     ["@function.macro"] = { link = "Macro" },
+
     ["@parameter"] = { link = "Identifier" },
     ["@method"] = { link = "Function" },
     ["@field"] = { link = "Identifier" },
@@ -53,11 +61,13 @@ M.groups = function()
     ["@exception"] = { link = "Exception" },
 
     ["@variable"] = { link = "Identifier" },
-    ["@variable.builtin"] = { link = "Include" },
-    ["@variable.member"] = { link = "String" },
-    ["@variable.parameter"] = { link = "Include" },
-    ["@variable.parameter.builtin"] = { link = "Typedef" },
+    ["@variable.builtin"] = { link = "Special" },
+    ["@variable.member"] = { link = "Constant" },
+    ["@variable.parameter"] = { link = "Special" },
+    ["@variable.parameter.builtin"] = { link = "Character" },
+
     ["@type"] = { link = "Type" },
+    ["@type.builtin"] = { link = "Character" },
     ["@type.definition"] = { link = "Typedef" },
     ["@storageclass"] = { link = "StorageClass" },
     ["@structure"] = { link = "Structure" },

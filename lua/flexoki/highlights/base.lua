@@ -61,7 +61,7 @@ M.groups = function()
     ["Float"] = { fg = c["or"], bg = "NONE" },
 
     ["Identifier"] = { fg = c["tx"], bg = "NONE" },
-    ["Function"] = { fg = c["or"], bg = "NONE" },
+    ["Function"] = { fg = c["bl"], bg = "NONE", bold = true },
 
     ["Keyword"] = { fg = c["pu"], bg = "NONE" },
     ["Statement"] = { link = "Keyword" },
