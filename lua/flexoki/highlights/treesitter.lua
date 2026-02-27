@@ -69,6 +69,7 @@ M.groups = function()
     ["@type"] = { link = "Type" },
     ["@type.builtin"] = { link = "Character" },
     ["@type.definition"] = { link = "Typedef" },
+    ["@type.argument"] = { link = "Constant" },
     ["@storageclass"] = { link = "StorageClass" },
     ["@structure"] = { link = "Structure" },
     ["@namespace"] = { link = "Normal" },
