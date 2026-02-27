@@ -15,6 +15,11 @@ M.groups = function()
     ["@text.todo"] = { link = "Todo" },
 
     ["@comment"] = { link = "Comment" },
+    ["@comment.documentation"] = { link = "Comment" },
+    ["@comment.error"] = { link = "Error" },
+    ["@comment.note"] = { link = "Note" },
+    ["@comment.todo"] = { link = "Todo" },
+    ["@comment.warning"] = { link = "Warning" },
     ["@punctuation"] = { link = "Delimiter" },
 
     ["@constant"] = { link = "Constant" },
