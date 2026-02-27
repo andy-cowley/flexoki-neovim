@@ -107,8 +107,8 @@ M.groups = function()
     ["PmenuSbar"] = { fg = "NONE", bg = c["ui"] },
     ["PmenuThumb"] = { fg = "NONE", bg = c["ui-3"] },
 
-    ["TabLine"] = { fg = c["tx-2"], bg = c["ui"] },
-    ["TabLineSel"] = { fg = c["tx"], bg = c["ui-3"] },
+    ["TabLine"] = { fg = c["tx-3"], bg = c["ui"] },
+    ["TabLineSel"] = { fg = c["tx-2"], bg = c["ui-3"] },
     ["TabLineFill"] = { fg = c["line"], bg = c["ui"] },
 
     ["StatusLine"] = { fg = c["tx"], bg = c["ui-3"] },
