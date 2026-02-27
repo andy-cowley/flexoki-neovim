@@ -63,7 +63,7 @@ M.groups = function()
     ["Identifier"] = { fg = c["re"], bg = "NONE" },
     ["Function"] = { fg = c["bl"], bg = "NONE", bold = true },
 
-    ["Keyword"] = { fg = c["pu"], bg = "NONE" },
+    ["Keyword"] = { fg = c["pu"], bg = "NONE", bold = true },
     ["Statement"] = { link = "Keyword" },
     ["Conditional"] = { link = "Keyword" },
     ["Repeat"] = { link = "Keyword" },
