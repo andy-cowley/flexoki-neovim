@@ -60,7 +60,7 @@ M.groups = function()
     ["Boolean"] = { fg = c["or"], bg = "NONE" },
     ["Float"] = { fg = c["or"], bg = "NONE" },
 
-    ["Identifier"] = { fg = c["tx"], bg = "NONE" },
+    ["Identifier"] = { fg = c["re"], bg = "NONE" },
     ["Function"] = { fg = c["bl"], bg = "NONE", bold = true },
 
     ["Keyword"] = { fg = c["pu"], bg = "NONE" },
